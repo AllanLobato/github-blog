@@ -1,3 +1,5 @@
 export function SearchInput(){
-    return
+    return(
+        <h1>HEllo!</h1>
+    )
 }
