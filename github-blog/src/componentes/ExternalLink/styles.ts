@@ -18,13 +18,16 @@ export const ExternalLinkContainer = styled.a<ExternalLinkProps>`
   border-bottom: 1px solid transparent;
   height: 19px;
   line-height: 19px;
+
   svg {
     width: 0.75rem;
     height: 0.75rem;
   }
+
   &:hover {
     border-color: ${({ theme }) => theme.colors["brand-blue"]};
   }
+  
   ${({ variant }) =>
     variant === "iconLeft" &&
     css`

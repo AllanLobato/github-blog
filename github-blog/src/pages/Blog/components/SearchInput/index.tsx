@@ -1,5 +1,14 @@
+import { SearchInputContainer } from "./styles";
+
 export function SearchInput(){
     return(
-        <h1>HEllo!</h1>
+        <SearchInputContainer>
+            <header>
+                <h3>Publicações</h3>
+                <span>6 publicações</span>
+            </header>
+
+            <input type="text" placeholder="Buscar conteúdo"/>
+        </SearchInputContainer>
     )
 }
